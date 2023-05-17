@@ -15,7 +15,7 @@ The project focuses on bike sharing systems, which are automated bike rental sys
 2. Enable SQL-based analysis on the transformed data.
 #### [Analysis](analysis):
 1. Utilize Spark SQL to analyze the transformed data and gain insights.
-#### [Business Intelligence](Power BI Dashboard.pbix):
+#### [Business Intelligence](power_bi_dashboard.pbix):
 1. Develop a Power BI dashboard to track Key Performance Indicators (KPIs) of the bike sharing system.
 ### Tools Used
 To fulfill the project requirements, I utilized Azure Databricks, Azure Data Lake Gen 2, Delta Lake, PySpark, Spark SQL, Power BI, VSCode, and Lucid Chart.
@@ -42,6 +42,6 @@ The project follows the "Azure Databricks Modern Analytics Architecture" and emp
 One of the key highlights of this solution is the ability to analyze data in each layer using Spark SQL. This empowers users to leverage the power of Spark SQL in conjunction with PySpark for comprehensive data analysis. The "[analysis](Analysis)" folder provides all the Spark SQL queries performed on the transformed data.
 
 ### Project Outcome
-The project culminates in a [Power BI dashboard](Power BI Dashboard.pbix) that utilizes data from the gold layer to track Key Performance Indicators (KPIs) of the bike sharing system.
+The project culminates in a [Power BI dashboard](power_bi_dashboard.pbix) that utilizes data from the gold layer to track Key Performance Indicators (KPIs) of the bike sharing system.
 <p align ='center'><img src="diagrams/BI dashboard.PNG"  width="40%" height="10%"></p>
 
