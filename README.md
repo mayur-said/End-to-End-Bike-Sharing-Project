@@ -39,7 +39,7 @@ The project follows the "Azure Databricks Modern Analytics Architecture" and emp
 <p align ='center'><img src="diagrams/data_models.jpg"  width="60%" height="30%"></p>
 
 ### Analysis using Spark SQL
-One of the key highlights of this solution is the ability to analyze data in each layer using Spark SQL. This empowers users to leverage the power of Spark SQL in conjunction with PySpark for comprehensive data analysis. The "Analysis" folder provides all the Spark SQL queries performed on the transformed data.
+One of the key highlights of this solution is the ability to analyze data in each layer using Spark SQL. This empowers users to leverage the power of Spark SQL in conjunction with PySpark for comprehensive data analysis. The "[analysis](Analysis)" folder provides all the Spark SQL queries performed on the transformed data.
 
 ### Project Outcome
 The project culminates in a Power BI dashboard that utilizes data from the gold layer to track Key Performance Indicators (KPIs) of the bike sharing system.
