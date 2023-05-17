@@ -28,15 +28,17 @@ The project follows the "Azure Databricks Modern Analytics Architecture" and emp
 
 1. Bronze Layer: The bronze layer serves as the initial landing zone for raw and unprocessed data. It stores the ingested data in its original raw format.
 
-<p align ='center'><img src="diagrams/raw_data.jpg"  width="60%" height="30%"></p>
+<p align ='center'><img src="diagrams/raw_data.jpg"  width="40%" height="10%"></p>
 
 2. Silver Layer: The silver layer acts as an intermediate stage where data undergoes cleaning, transformation, and structuring. It prepares the data for downstream analytics by performing deduplication, filtering, standardization, and enrichment. Data quality checks, schema validation, and integration processes ensure data consistency and reliability.
 
-<p align ='center'><img src="diagrams/processed_data.jpg"  width="60%" height="30%"></p>
+<p align ='center'><img src="diagrams/processed_data.jpg"  width="40%" height="10%"></p>
 
 3. Gold Layer: The gold layer represents the final stage of data refinement. It contains a well-structured, clean, and validated dataset optimized for efficient querying and analysis. Further transformations, aggregations, joins, and optimizations are performed on the data to cater to specific analytical use cases.
 
 <p align ='center'><img src="diagrams/data_models.jpg"  width="60%" height="30%"></p>
+|:--:|
+|<b>Architecture</b>|
 
 ### Analysis using Spark SQL
 One of the key highlights of this solution is the ability to analyze data in each layer using Spark SQL. This empowers users to leverage the power of Spark SQL in conjunction with PySpark for comprehensive data analysis. The "Analysis" folder provides all the Spark SQL queries performed on the transformed data.
