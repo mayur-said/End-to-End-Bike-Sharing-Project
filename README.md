@@ -27,7 +27,7 @@ The project follows the "Azure Databricks Modern Analytics Architecture" and emp
 |<b>Architecture</b>|
 
 1. Bronze Layer: The bronze layer serves as the initial landing zone for raw and unprocessed data. It stores the ingested data in its original raw format.
-<p><center><img src="diagrams/raw_data.png"  width="60%" height="30%"></center></p>
+<p><center><img src="diagrams/raw_data.jpg"  width="60%" height="30%"></center></p>
 
 2. Silver Layer: The silver layer acts as an intermediate stage where data undergoes cleaning, transformation, and structuring. It prepares the data for downstream analytics by performing deduplication, filtering, standardization, and enrichment. Data quality checks, schema validation, and integration processes ensure data consistency and reliability.
 
