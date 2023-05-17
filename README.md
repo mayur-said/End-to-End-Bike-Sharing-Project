@@ -3,7 +3,7 @@ Hello everyone,
 I'm excited to share my latest End-to-End Bike Sharing Project developed using Azure Databricks, Azure Data Lake Gen 2, and Delta Lake with all of you. The main purpose of this project is to showcase my skills in data engineering and data analysis.
 
 ### Project Overview
-The project focuses on bike sharing systems, which are automated bike rental systems with a global presence. These systems play a crucial role in traffic, environmental, and health matters. The dataset contains hourly data from various bike-sharing programs worldwide, consisting of over 500 thousand bicycles. For more detailed information on the dataset used for this project, please refer to the provided link.
+The project focuses on bike sharing systems, which are automated bike rental systems with a global presence. These systems play a crucial role in traffic, environmental, and health matters. The dataset contains hourly data from various bike-sharing programs worldwide, consisting of over 500 thousand bicycles. For more detailed information on the dataset used for this project, please refer to this [link](https://archive.ics.uci.edu/ml/datasets/bike+sharing+dataset).
 
 ### Project Requirements
 #### [Data Ingestion](ingestion_pipeline):
@@ -15,7 +15,7 @@ The project focuses on bike sharing systems, which are automated bike rental sys
 2. Enable SQL-based analysis on the transformed data.
 #### [Analysis](analysis):
 1. Utilize Spark SQL to analyze the transformed data and gain insights.
-#### Business Intelligence(Power BI Dashboard.pbix):
+#### [Business Intelligence](Power BI Dashboard.pbix):
 1. Develop a Power BI dashboard to track Key Performance Indicators (KPIs) of the bike sharing system.
 ### Tools Used
 To fulfill the project requirements, I utilized Azure Databricks, Azure Data Lake Gen 2, Delta Lake, PySpark, Spark SQL, Power BI, VSCode, and Lucid Chart.
@@ -42,6 +42,6 @@ The project follows the "Azure Databricks Modern Analytics Architecture" and emp
 One of the key highlights of this solution is the ability to analyze data in each layer using Spark SQL. This empowers users to leverage the power of Spark SQL in conjunction with PySpark for comprehensive data analysis. The "[analysis](Analysis)" folder provides all the Spark SQL queries performed on the transformed data.
 
 ### Project Outcome
-The project culminates in a Power BI dashboard that utilizes data from the gold layer to track Key Performance Indicators (KPIs) of the bike sharing system.
+The project culminates in a [Power BI dashboard](Power BI Dashboard.pbix) that utilizes data from the gold layer to track Key Performance Indicators (KPIs) of the bike sharing system.
 <p align ='center'><img src="diagrams/BI dashboard.PNG"  width="40%" height="10%"></p>
 
