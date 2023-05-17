@@ -25,6 +25,9 @@ The project follows the "Azure Databricks Modern Analytics Architecture" and emp
 <img src="diagrams/architecture.png"  width="60%" height="30%">
 |:--:|
 |<b>Architecture - Fig.1</b>|
+<img src="diagrams/architecture.png"  width="60%" height="30%">
+|:--:|
+|<b>Architecture - Fig.1</b>|
 
 <img src="diagrams/architecture.png"  width="60%" height="30%">
 |:--:|
