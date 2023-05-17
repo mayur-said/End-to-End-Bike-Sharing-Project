@@ -22,7 +22,7 @@ To fulfill the project requirements, I utilized Azure Databricks, Azure Data Lak
 
 ### Solution Architecture
 The project follows the "Azure Databricks Modern Analytics Architecture" and employs a three-layer approach: bronze, silver, and gold. These layers represent different stages of data refinement, where the data's value increases as it progresses from bronze to gold.
-<img src="diagrams/architecture.png"  width="80%" height="30%">
+<img src="diagrams/architecture.png"  width="60%" height="30%">
 |:--:|
 |<b>Architecture - Fig.1</b>|
 
