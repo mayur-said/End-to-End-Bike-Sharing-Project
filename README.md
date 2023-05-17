@@ -37,12 +37,11 @@ The project follows the "Azure Databricks Modern Analytics Architecture" and emp
 3. Gold Layer: The gold layer represents the final stage of data refinement. It contains a well-structured, clean, and validated dataset optimized for efficient querying and analysis. Further transformations, aggregations, joins, and optimizations are performed on the data to cater to specific analytical use cases.
 
 <p align ='center'><img src="diagrams/data_models.jpg"  width="60%" height="30%"></p>
-|:--:|
-|<b>Architecture</b>|
 
 ### Analysis using Spark SQL
 One of the key highlights of this solution is the ability to analyze data in each layer using Spark SQL. This empowers users to leverage the power of Spark SQL in conjunction with PySpark for comprehensive data analysis. The "Analysis" folder provides all the Spark SQL queries performed on the transformed data.
 
 ### Project Outcome
 The project culminates in a Power BI dashboard that utilizes data from the gold layer to track Key Performance Indicators (KPIs) of the bike sharing system.
+<p align ='center'><img src="diagrams/BI dashboard.PNG"  width="40%" height="10%"></p>
 
