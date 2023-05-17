@@ -1,24 +1,39 @@
 # End-to-End-Bike-Sharing-Project
 Hello everyone,
+I'm excited to share my latest End-to-End Bike Sharing Project developed using Azure Databricks, Azure Data Lake Gen 2, and Delta Lake with all of you. The main purpose of this project is to showcase my skills in data engineering and data analysis.
 
-I'm excited to share my latest End-to-End Bike Sharing Project developed using Azure Databricks, Azure Data Lake Gen 2, and Delta Lake. The main purpose of this project is to showcase my skills in data engineering and data analysis.
+### Project Overview
+The project focuses on bike sharing systems, which are automated bike rental systems with a global presence. These systems play a crucial role in traffic, environmental, and health matters. The dataset contains hourly data from various bike-sharing programs worldwide, consisting of over 500 thousand bicycles. For more detailed information on the dataset used for this project, please refer to the provided link.
+
+### Project Requirements
+##### Data Ingestion
+1. Ingest the raw data into the data lake.
+2. Apply appropriate schema to the ingested data.
+3. Enable SQL-based analysis on the ingested data.
+##### Data Transformation
+1. Normalize the ingested data and create data models.
+2. Enable SQL-based analysis on the transformed data.
+##### Analysis:
+1. Utilize Spark SQL to analyze the transformed data and gain insights.
+##### Business Intelligence
+1. Develop a Power BI dashboard to track Key Performance Indicators (KPIs) of the bike sharing system.
+### Tools Used:
+To fulfill the project requirements, I utilized Azure Databricks, Azure Data Lake Gen 2, Delta Lake, PySpark, Spark SQL, Power BI, VSCode, and Lucid Chart.
 
 ### Solution Architecture
-The project follows the "Azure Databricks Modern Analytics Architecture" and is organized into three layers: bronze, silver, and gold. These layers represent different stages of data refinement in the pipeline, with the data's value increasing as it progresses from bronze to gold.
-    ![Alt text](https://github.com/mayur-said/End-to-End-Bike-Sharing-Project/blob/master/data%20models%20and%20solution%20architecture/Azure%20Architecture%20Solution.png)
-    
-Bronze Layer: The bronze layer serves as the initial landing zone for raw and unprocessed data. It stores the ingested data in its original format, such as raw files or streaming data. It maintains the data's fidelity, ensuring data lineage and providing a historical record of the ingested data.
+The project follows the "Azure Databricks Modern Analytics Architecture" and employs a three-layer approach: bronze, silver, and gold. These layers represent different stages of data refinement, where the data's value increases as it progresses from bronze to gold.
+![Solutin Architecture](./data models and solution architecture/Azure Architecture Solution.png)
+|:--:|
+|<b>Solutin Architecture - Fig.1</b>|
 
-Silver Layer: The silver layer acts as an intermediate stage where data undergoes cleaning, transformation, and structuring. It serves as a staging area for data refinement and preparation for downstream analytics. Data deduplication, filtering, standardization, and enrichment take place in this layer. It includes data quality checks, schema validation, and data integration processes to ensure data consistency and reliability for analysis.
+1. Bronze Layer: The bronze layer serves as the initial landing zone for raw and unprocessed data. It stores the ingested data in its original format, such as raw files or streaming data.
 
-Gold Layer: The gold layer represents the final stage of data refinement. It contains a well-structured, clean, and validated dataset optimized for efficient querying and analysis. The data in the gold layer is further transformed, aggregated, joined, and optimized for specific analytical use cases. It represents a trusted and high-quality dataset ready for consumption by business users, data scientists, or analytical applications.
+2. Silver Layer: The silver layer acts as an intermediate stage where data undergoes cleaning, transformation, and structuring. It prepares the data for downstream analytics by performing deduplication, filtering, standardization, and enrichment. Data quality checks, schema validation, and integration processes ensure data consistency and reliability.
 
+3. Gold Layer: The gold layer represents the final stage of data refinement. It contains a well-structured, clean, and validated dataset optimized for efficient querying and analysis. Further transformations, aggregations, joins, and optimizations are performed on the data to cater to specific analytical use cases.
 ### Analysis using Spark SQL
-One of the key highlights of this solution is the ability to analyze data in each layer using Spark SQL. This allows users to leverage the power of Spark SQL in conjunction with PySpark for comprehensive data analysis.
-### Project Outcome: 
-The end result of this project is a Power BI dashboard that utilizes data from the gold layer to track Key Performance Indicators (KPIs) derived from the bike sharing data.
-### Tools Used: 
-The project utilizes various tools, including Azure Databricks, Azure Data Lake Gen 2, Delta Lake, PySpark, Spark SQL, Power BI, VSCode, and Lucid Chart.
-For detailed information about this project and code, please check the comment section for the GitHub link.
+One of the key highlights of this solution is the ability to analyze data in each layer using Spark SQL. This empowers users to leverage the power of Spark SQL in conjunction with PySpark for comprehensive data analysis. The "Analysis" folder provides all the Spark SQL queries performed on the transformed data.
 
-Thank you!
+### Project Outcome
+The project culminates in a Power BI dashboard that utilizes data from the gold layer to track Key Performance Indicators (KPIs) of the bike sharing system.
+
