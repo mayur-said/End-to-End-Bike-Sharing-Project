@@ -22,9 +22,13 @@ To fulfill the project requirements, I utilized Azure Databricks, Azure Data Lak
 
 ### Solution Architecture
 The project follows the "Azure Databricks Modern Analytics Architecture" and employs a three-layer approach: bronze, silver, and gold. These layers represent different stages of data refinement, where the data's value increases as it progresses from bronze to gold.
-![Solutin Architecture](./data models and solution architecture/Azure Architecture Solution.png)
+<center><img src = "diagrams/architecture.png" width = 800, height = 500></center>
 |:--:|
-|<b>Solutin Architecture - Fig.1</b>|
+|<b>Top 10 cities by reported crime - Fig.1</b>|
+<p align="center">
+    <img src = "diagrams/architecture.png" width = 800, height = 500>
+    <figcaption>Fig.1 - Solution Architecture</figcaption>
+</p>
 
 1. Bronze Layer: The bronze layer serves as the initial landing zone for raw and unprocessed data. It stores the ingested data in its original format, such as raw files or streaming data.
 
