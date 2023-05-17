@@ -24,10 +24,10 @@ To fulfill the project requirements, I utilized Azure Databricks, Azure Data Lak
 The project follows the "Azure Databricks Modern Analytics Architecture" and employs a three-layer approach: bronze, silver, and gold. These layers represent different stages of data refinement, where the data's value increases as it progresses from bronze to gold.
 <img src="diagrams/architecture.png"  width="60%" height="30%">
 |:--:|
-|<b>Architecture - Fig.1</b>|
+|<b>Architecture</b>|
 
 1. Bronze Layer: The bronze layer serves as the initial landing zone for raw and unprocessed data. It stores the ingested data in its original raw format.
-![Alt text](diagrams/raw_data.jpg "Optional title")
+<img src="diagrams/raw_data.png"  width="60%" height="30%">
 
 2. Silver Layer: The silver layer acts as an intermediate stage where data undergoes cleaning, transformation, and structuring. It prepares the data for downstream analytics by performing deduplication, filtering, standardization, and enrichment. Data quality checks, schema validation, and integration processes ensure data consistency and reliability.
 
