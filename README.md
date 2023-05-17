@@ -27,7 +27,6 @@ The project follows the "Azure Databricks Modern Analytics Architecture" and emp
 |<b>Architecture - Fig.1</b>|
 
 1. Bronze Layer: The bronze layer serves as the initial landing zone for raw and unprocessed data. It stores the ingested data in its original raw format.
-
 <img src="diagrams/raw_data.jpg"  width="60%" height="30%">
 |:--:|
 |<b>Raw Data - Fig.2</b>|
