@@ -6,16 +6,16 @@ I'm excited to share my latest End-to-End Bike Sharing Project developed using A
 The project focuses on bike sharing systems, which are automated bike rental systems with a global presence. These systems play a crucial role in traffic, environmental, and health matters. The dataset contains hourly data from various bike-sharing programs worldwide, consisting of over 500 thousand bicycles. For more detailed information on the dataset used for this project, please refer to the provided link.
 
 ### Project Requirements
-#### Data Ingestion:
+#### [Data Ingestion](ingestion_pipeline):
 1. Ingest the raw data into the data lake.
 2. Apply appropriate schema to the ingested data.
 3. Enable SQL-based analysis on the ingested data.
-#### Data Transformation:
+#### [Data Transformation](transformation_pipeline):
 1. Normalize the ingested data and create data model.
 2. Enable SQL-based analysis on the transformed data.
-#### Analysis:
+#### [Analysis](analysis):
 1. Utilize Spark SQL to analyze the transformed data and gain insights.
-#### Business Intelligence:
+#### Business Intelligence(Power BI Dashboard.pbix):
 1. Develop a Power BI dashboard to track Key Performance Indicators (KPIs) of the bike sharing system.
 ### Tools Used
 To fulfill the project requirements, I utilized Azure Databricks, Azure Data Lake Gen 2, Delta Lake, PySpark, Spark SQL, Power BI, VSCode, and Lucid Chart.
